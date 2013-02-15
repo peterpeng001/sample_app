@@ -37,6 +37,9 @@ gem 'jquery-rails', '2.0.2'
 # To use debugger
 # gem 'debugger'
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
 
 group :test do
   gem 'capybara', '1.1.2'
